@@ -1,0 +1,13 @@
+.footer {
+    background-color: rgba(44, 43, 43, 0.8);
+    color: #fff;
+    /* padding: 2px 0; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  

@@ -1,0 +1,22 @@
+.container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #fff; 
+}  
+.recipe-search {
+    border-radius: 20px; 
+    padding: 5px; 
+}
+    
+button {
+    width: 40%;
+    border-radius: 20px;
+}
+
+
+

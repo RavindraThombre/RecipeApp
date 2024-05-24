@@ -1,0 +1,14 @@
+<div class="container mt-5">
+    <h2>Showing results for "{{ query }}"</h2>
+    <div *ngIf="recipes.length === 0">No recipes found.</div>
+    <div *ngIf="recipes.length > 0" class="row">
+        <div *ngFor="let recipe of recipes" class="col-md-4">
+            <div class="card mb-4" (click)="viewDetail(recipe.id)">
+                <img [src]="recipe.image" class="card-img-top" alt="{{recipe.title}}">
+                <div class="card-body">
+                    <h5 class="card-title">{{recipe.title}}</h5>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
